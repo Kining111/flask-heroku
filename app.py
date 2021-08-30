@@ -27,7 +27,7 @@ def hello():
 
 @app.route('/hello/string:name>')
 def hello():
-    return "สวัสดี"
+    return "hello"
 
 @app.route('/api', methods=['GET'])
 def get_api():
