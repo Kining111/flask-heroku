@@ -26,7 +26,7 @@ def hello():
     return "Hello Flask-Herok"
 
 @app.route('/hello/string:name>')
-def hello122():
+def navissT():
     return "สวัสดี"
 
 @app.route('/api', methods=['GET'])
